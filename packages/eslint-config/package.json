@@ -1,8 +1,7 @@
 {
   "name": "@openlibrary/eslint-config",
-  "version": "1.0.1",
+  "version": "0.0.0",
   "type": "module",
-  "private": true,
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
