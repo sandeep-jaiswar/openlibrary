@@ -1,8 +1,14 @@
 {
   "name": "@openlibrary/button",
-  "version": "0.0.1",
-  "description": "",
-  "main": "index.js",
+  "version": "0.0.2",
+  "main": "src/index.tsx",
+  "sideEffects": false,
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "tsup src --dts",
     "build:fast": "tsup src",
