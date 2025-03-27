@@ -3,9 +3,6 @@
   "version": "0.0.2",
   "main": "src/index.tsx",
   "sideEffects": false,
-  "files": [
-    "dist"
-  ],
   "publishConfig": {
     "access": "public"
   },

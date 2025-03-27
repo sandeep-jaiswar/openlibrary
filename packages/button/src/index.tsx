@@ -1,10 +1,14 @@
-export type ButtonProps = {
-    children: React.ReactNode;
+import { ReactNode } from "react";
+
+export interface ButtonProps extends React.HTMLProps<HTMLButtonElement> {
+    children: ReactNode;
+    type?: 'button' | 'submit' | 'reset';
+    onClick?: () => void;
 }
 
-const Button = ({children}: ButtonProps) => {
-    return(
-        <button>{children}</button>
+const Button = ({ children, onClick, type }: ButtonProps) => {
+    return (
+        <button type={type} onClick={onClick}>{children}</button>
     )
 };
 
