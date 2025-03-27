@@ -1,6 +1,6 @@
 {
   "name": "@openlibrary/button",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "src/index.tsx",
   "sideEffects": false,
   "publishConfig": {
