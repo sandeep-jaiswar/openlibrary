@@ -1,0 +1,30 @@
+{
+  "name": "@openlibrary/button",
+  "version": "0.0.1-alpha.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsup src --dts",
+    "build:fast": "tsup src",
+    "dev": "pnpm build:fast --watch",
+    "clean": "rimraf dist .turbo",
+    "typecheck": "tsc --noEmit",
+    "prepack": "clean-package",
+    "postpack": "clean-package restore"
+  },
+  "author": "",
+  "license": "ISC",
+  "clean-package": "../../clean-package.config.json",
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "@types/react": "19.0.10",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "exports": {
+    ".": "./src/index.tsx"
+  }
+}
