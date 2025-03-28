@@ -1,5 +1,11 @@
 # @openlibrary/button
 
+## 0.0.7
+
+### Patch Changes
+
+- v0.0.1 publish @openlibrary/tailwind
+
 ## 0.0.6
 
 ### Patch Changes

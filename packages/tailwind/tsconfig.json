@@ -1,7 +1,7 @@
 {
   "extends": "../../tsconfig.json",
   "compilerOptions": {
-    "outDir": "../../dist/jest",
+    "outDir": "../../dist/tailwind",
     "rootDir": "./src"
   },
   "include": ["src"],
