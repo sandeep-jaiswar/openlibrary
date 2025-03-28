@@ -8,6 +8,7 @@ const config: Config = {
   coveragePathIgnorePatterns: ["\\\\node_modules\\\\"],
   coverageProvider: "v8",
   coverageReporters: ["json", "text", "lcov", "clover"],
+  preset: "ts-jest",
   testEnvironment: "jsdom",
   setupFilesAfterEnv: ["@testing-library/jest-dom"],
   transform: {
