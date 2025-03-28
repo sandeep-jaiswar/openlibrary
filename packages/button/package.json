@@ -21,8 +21,10 @@
   "license": "ISC",
   "clean-package": "../../clean-package.config.json",
   "devDependencies": {
+    "@openlibrary/jest": "workspace:*",
     "@types/node": "^22.13.10",
     "@types/react": "19.0.10",
+    "tsup": "^8.4.0",
     "typescript": "^5.8.2"
   },
   "peerDependencies": {

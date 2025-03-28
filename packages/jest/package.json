@@ -3,6 +3,7 @@
   "version": "0.0.5",
   "main": "dist/index.js",
   "license": "ISC",
+  "types": "dist/index.d.ts",
   "devDependencies": {
     "@types/node": "^22.13.10",
     "@types/react": "19.0.10",
@@ -31,7 +32,6 @@
     ".": {
       "import": "./dist/index.js",
       "require": "./dist/index.js",
-      "types": "./dist/index.d.ts",
       "default": "./dist/index.js"
     }
   }
