@@ -1,5 +1,11 @@
 # @openlibrary/button
 
+## 0.0.6
+
+### Patch Changes
+
+- v0.0.1
+
 ## 0.0.5
 
 ### Patch Changes
