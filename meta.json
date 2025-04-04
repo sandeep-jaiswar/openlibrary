@@ -1,5 +1,5 @@
 {
-  "name": "Basic",
-  "description": "Basic monorepo example with two Next.js applications",
+  "name": "Openlibrary",
+  "description": "Openlibrary for multiple typescript and react packages",
   "maintainedByCoreTeam": true
 }
